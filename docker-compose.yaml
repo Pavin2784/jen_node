@@ -16,7 +16,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: praveenedward/node:v${BUILD_NUMBER}
+    image: pavinb/node:v${BUILD_NUMBER}
     container_name: node
     environment:
       DB_HOST: ${DB_HOST}
