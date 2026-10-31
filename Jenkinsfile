@@ -13,7 +13,7 @@ pipeline {
             steps {
                 checkout scm 
         }
-
+    }
         stage('Build and Run with Docker Compose') {
             steps {
                 dir('app') {
@@ -66,7 +66,7 @@ pipeline {
 
 }
 
-}
+
 
 
 
